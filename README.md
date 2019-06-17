@@ -44,9 +44,9 @@ Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to
 
 | Dataset               | # Songs  | Size (h) | # Tracks | # Instrument Categories |
 |-----------------------|----------|----------|----------|-------------------------|
-| LMD (subset)          | 20371    | 1793     | 4+       | 129                     |
-| Lakh MIDI Dataset [1] | 176581   | 10521    | 1+       | 129                     |
 | **Slakh2100**         | **2100** | **145**  | **4-48** | **34**                  |
+| LMD (subset)          | 20,371   | 1,793    | 4+       | 129                     |
+| Lakh MIDI Dataset [1] | 176,581  | 10,521   | 1+       | 129                     |
 
 
 ## Construction of Slakh <a name="construction"></a>
