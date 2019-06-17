@@ -1,4 +1,4 @@
-The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/)[1] using professional grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using the [Native Instruments' Komplete Complete 12 Ultimite](https://www.native-instruments.com/en/products/komplete/bundles/komplete-12-ultimate/) sample pack with their Kontakt sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
+The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using the [Native Instruments' Komplete Complete 12 Ultimite](https://www.native-instruments.com/en/products/komplete/bundles/komplete-12-ultimate/) sample pack with their Kontakt sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
 
 
 ## Table of Contents
@@ -19,7 +19,15 @@ The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separatio
 
 ## Get Slakh2100 <a name="download"></a>
 
-Download links coming soon!
+Download Slakh2100 here: (link coming soon)
+
+Download Flakh2100 here: (link coming soon)
+
+Download Slakh2100 MIDI instrument/Kontakt patch mappings here: (link coming soon)
+
+Download code to render Slakh here: (link coming soon)
+
+Download support code for Slakh here: (link coming soon)
 
 
 
@@ -77,6 +85,8 @@ The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSyn
 ## Anaylsis <a name="analysis"></a>
 
 ## Examples <a name="examples"></a>
+
+
 
 ## Benchmarks <a name="benchmarks"></a>
 
