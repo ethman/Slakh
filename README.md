@@ -72,7 +72,7 @@ After being rendered, each song is automatically mixed by normalizing each track
 
 ### Flakh2100 <a name="flakh"></a>
 
-The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSynth](http://www.fluidsynth.org/) using the `TimGM6mb.sf2` sound font, the default in [pretty\_midi](https://craffel.github.io/pretty-midi/). We refer to the resulting dataset as Flakh. As before, we similarly split the MIDI into individual tracks and render these individually to make stems. But differences in dithering between Kontakt and FluidSynth made normalizing and mixing Flakh as we did above. Instead FluidSynth renders the whole, unsplit MIDI “mixture” as the resultant audio mixture.
+The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSynth](http://www.fluidsynth.org/) using the `TimGM6mb.sf2` sound font, the default in [pretty\_midi](https://craffel.github.io/pretty-midi/). The resulting dataset is referred to as **Flakh2100**. As before, the MIDI file is split into individual tracks and render these individually to make stems. But differences in dithering between Kontakt and FluidSynth made normalizing and mixing Flakh in the same way as Slakh impossible. Instead FluidSynth renders the whole, unsplit MIDI “mixture” as the resultant audio mixture. Similarly, these tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit and they are distributed in the [flac](https://xiph.org/flac/) format.
 
 ## Anaylsis <a name="analysis"></a>
 
