@@ -24,7 +24,7 @@ Download links coming soon!
   
 If you use Slakh2100 or generate data using the same method we ask that you cite it using the following bibtex entry:
 
-<BibTex entry here>
+(((BibTex entry here)))
 
 ## Comparison to Other Datasets <a name="comparison"></a>
 
@@ -42,12 +42,7 @@ Here is a comparison between Slakh2100 and the most popular datasets used for au
 
 Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to the subset of Lakh that has the four instrument categories as described in [Selection from the Lakh MIDI Dataset](#selection) (this is denoted as "LMD Subset" in the table below).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
+<div class="tg-wrap">
 <table class="tg">
   <tr>
     <th class="tg-0pky">Dataset</th>
@@ -57,7 +52,7 @@ Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to
     <th class="tg-0pky"># Instrument Categories</th>
   </tr>
   <tr>
-      <td class="tg-0pky"><b>Slakh2100**</b></td>
+      <td class="tg-0pky"><b>Slakh2100</b></td>
       <td class="tg-0pky"><b>2100</b></td>
       <td class="tg-0pky"><b>145</b></td>
       <td class="tg-0pky"><b>4-48</b></td>
@@ -78,10 +73,14 @@ Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to
     <td class="tg-0pky">129<br></td>
   </tr>
 </table>
+</div>
 
 
 ## Construction of Slakh <a name="construction"></a>
+
 ### Selection from the Lakh MIDI Dataset <a name="selection"></a>
+
+To 
 
 ### Rendering and Mixing <a name="rendering"></a>
 
