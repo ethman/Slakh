@@ -42,11 +42,42 @@ Here is a comparison between Slakh2100 and the most popular datasets used for au
 
 Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to the subset of Lakh that has the four instrument categories as described in [Selection from the Lakh MIDI Dataset](#selection) (this is denoted as "LMD Subset" in the table below).
 
-| Dataset               | # Songs  | Size (h) | # Tracks | # Instrument Categories |
-|-----------------------|----------|----------|----------|-------------------------|
-| **Slakh2100**         | **2100** | **145**  | **4-48** | **34**                  |
-| LMD (subset)          | 20,371   | 1,793    | 4+       | 129                     |
-| Lakh MIDI Dataset [1] | 176,581  | 10,521   | 1+       | 129                     |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Dataset</th>
+    <th class="tg-0pky"># Songs</th>
+    <th class="tg-0pky">Size (h)</th>
+    <th class="tg-0pky"># Tracks</th>
+    <th class="tg-0pky"># Instrument Categories</th>
+  </tr>
+  <tr>
+      <td class="tg-0pky"><b>Slakh2100**</b></td>
+      <td class="tg-0pky"><b>2100</b></td>
+      <td class="tg-0pky"><b>145</b></td>
+      <td class="tg-0pky"><b>4-48</b></td>
+      <td class="tg-0pky"><b>34</b></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">LMD (subset)</td>
+    <td class="tg-0pky">20,371</td>
+    <td class="tg-0pky">1,793<br></td>
+    <td class="tg-0pky">4+<br></td>
+    <td class="tg-0pky">129<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Lakh MIDI Dataset [1]</td>
+    <td class="tg-0pky">176,581</td>
+    <td class="tg-0pky">10,521</td>
+    <td class="tg-0pky">1+<br></td>
+    <td class="tg-0pky">129<br></td>
+  </tr>
+</table>
 
 
 ## Construction of Slakh <a name="construction"></a>
