@@ -84,8 +84,40 @@ The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSyn
 
 ## Anaylsis <a name="analysis"></a>
 
+#### Analysis of MIDI Files Selected for Slakh2100
+
+Here is the number of _mixtures_ that contain an instrument in a given MIDI instrument program "family":
+
+![number of mixtures with class](https://github.com/ethman/Slakh/raw/master/img/n_with_cls.png)
+
+And here is the number of _tracks_ by MIDI instrument program "family":
+
+![number of tracks with class](https://github.com/ethman/Slakh/raw/master/img/inst_cls.png)
+
+[Here is a link to a larger image that contains the number of tracks rendered with a given MIDI instrument program number.](https://github.com/ethman/Slakh/raw/master/img/inst_pgm.png)
+
+
+#### Analysis of Audio
+
+Here are all the spectra of the MIDI instrument program "families" as they are rendered in Slakh2100:
+
+![slakh instrument spectra](https://github.com/ethman/Slakh/raw/master/img/slakh_src_by_class_big.png)
+
+Here is a comparison of the spectra of Slakh2100, Flakh2100, and MUSDB18 [6]:
+
+![spectra comparison overlayed](https://github.com/ethman/Slakh/raw/master/img/all_spectra_placeholder.png)
+
+Here are those same three spectra intentionally separated along the y-axis for clarity:
+
+![spectra comparison](https://github.com/ethman/Slakh/raw/master/img/all_spectra_option3.png)
+
+Here is a [UMAP](https://github.com/lmcinnes/umap) projection of each of the above spectra down to a 2D space:
+
+![umap](https://github.com/ethman/Slakh/raw/master/img/all_umap_trunc_option2.png)
+
 ## Examples <a name="examples"></a>
 
+(((Examples coming soon)))
 
 
 ## Benchmarks <a name="benchmarks"></a>
