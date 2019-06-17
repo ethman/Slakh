@@ -103,7 +103,7 @@ Here are the averages of the spectra of each of the MIDI instrument program "fam
 
 ![slakh instrument spectra](https://github.com/ethman/Slakh/raw/master/img/slakh_src_by_class_big.png)
 
-Here is a comparison of the average mixture spectra of Slakh2100, Flakh2100, and MUSDB18 [6]:
+Here is a comparison of the average mixture spectra of Slakh2100, Flakh2100 (denoted as Slakh2100-FS in the graph), and MUSDB18 [6]:
 
 ![spectra comparison overlayed](https://github.com/ethman/Slakh/raw/master/img/all_spectra_placeholder.png)
 
