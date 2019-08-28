@@ -7,9 +7,9 @@ The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separatio
 2. [Comparison to Other Datasets](#comparison)
 3. [License and Attribution](#license)
 4. [Construction of Slakh](#construction)
-    <br/ >&emsp;1. [Selection from the Lakh MIDI Dataset](#selection)
-    <br/ >&emsp;2. [Rendering and Mixing](#rendering)
-    <br/ >&emsp;3. [Flakh2100](#flakh)<br/ >
+    <br>&emsp;1. [Selection from the Lakh MIDI Dataset](#selection)
+    <br>&emsp;2. [Rendering and Mixing](#rendering)
+    <br>&emsp;3. [Flakh2100](#flakh)<br>
 5. [Analysis](#analysis)
 6. [Examples](#examples)
 7. [Benchmarks](#benchmarks)
