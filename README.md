@@ -35,6 +35,8 @@ If you use Slakh2100 or generate data using the same method we ask that you cite
 
 (((BibTex entry here)))
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Slakh2100 and Flakh2100 are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
 
 
 ## Comparison to Other Datasets <a name="comparison"></a>
@@ -51,6 +53,7 @@ Here is a comparison between Slakh2100 and the most popular datasets used for au
 | MUSDB18* [6]  | 150      | 10       | 4        | 4                       |
 | **Slakh2100** | **2100** | **145**  | **4-48** | **34**                  |
 
+<br>
 
 ![comparison with other datasets](https://github.com/ethman/Slakh/raw/master/img/slakh_comp1.png)
 
@@ -64,6 +67,7 @@ Here is how Slakh2100 compares to the full Lakh MIDI Dataset and to the subset o
 | Lakh MIDI Dataset [1] | 176,581  | 10,521   | 1+       | 129                     |
 | **Slakh2100**         | **2100** | **145**  | **4-48** | **34**                  |
 
+<br>
 
 ![comparison with other datasets, and expansion](https://github.com/ethman/Slakh/raw/master/img/slakh_comp2.png)
 
