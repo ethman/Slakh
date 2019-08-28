@@ -52,8 +52,10 @@ Here is a comparison between Slakh2100 and the most popular datasets used for au
 | **Slakh2100** | **2100** | **145**  | **4-48** | **34**                  |
 
 
+![comparison with other datasets](https://github.com/ethman/Slakh/raw/master/img/slakh_comp1.png)
 
-Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to the subset of Lakh that has the four instrument categories as described in [Selection from the Lakh MIDI Dataset](#selection) (this is denoted as "LMD (subset)" in the table below).
+
+Here is how Slakh2100 compares to the full Lakh MIDI Dataset and to the subset of Lakh that has sources with at least the four instrument categories as described in [Selection from the Lakh MIDI Dataset](#selection) (this is denoted as "LMD (subset)" in the table below).
 
 
 | Dataset               | # Songs  | Size (h) | # Tracks | # Instrument Categories |
@@ -63,7 +65,9 @@ Here is how Slakh2100 compares to the full Lakh MIDI Dataset (`lmd-full`) and to
 | **Slakh2100**         | **2100** | **145**  | **4-48** | **34**                  |
 
 
-For more analysis, see our paper presented at WASPAA 2019.
+![comparison with other datasets, and expansion](https://github.com/ethman/Slakh/raw/master/img/slakh_comp2.png)
+
+There is lots of room to grow to add more mixtures from MIDI files, as well as adding new sampling libraries to get a richer dataset of sounds. For more analysis, see our paper presented at WASPAA 2019.
 
 
 ## Construction of Slakh <a name="construction"></a>
