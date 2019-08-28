@@ -130,9 +130,40 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 
 ## Benchmarks <a name="benchmarks"></a>
 
+Bass and drums separation performance in terms of SI- SDR [dB] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
-(((Results from benchmark tests coming soon)))
+|                           | Training data [h] | Bass | Drums |
+|---------------------------|:-----------------:|:----:|:-----:|
+| Unprocessed mixture       |         -         | -6.0 |  -3.8 |
+| MUSDB18                   |         5         | -0.5 |  2.2  |
+| MUSDB18 + Slakh           |         48        |  1.3 |  3.6  |
+| MUSDB18 + Flakh           |         48        |  0.0 |  3.1  |
+| MUSDB18 + MUSDB18-incoh.  |         48        |  1.2 |  3.5  |
+| Slakh redux               |         5         | -2.0 |  -0.6 |
+| Slakh                     |         43        | -2.4 |  -0.7 |
+| Oracle Methods:           |                   |      |       |
+| IBM                       |         -         |  5.9 |  8.4  |
+| IRM                       |         -         |  5.7 |  8.1  |
+| Wiener-like               |         -         |  6.9 |  9.1  |
+| Truncated phase sensitive |         -         |  7.9 |  10.1 |
 
+
+Separation performance in terms of SI-SDR [dB] averaged over the Slakh2100 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
+
+|                           | Training data [h] |  Bass | Drums | Guitar | Piano |
+|---------------------------|:-----------------:|:-----:|:-----:|:------:|:-----:|
+| Unprocessed mixture       |         -         |  -6.5 |  -6.6 |  -6.9  |  -8.0 |
+| MUSDB18                   |         5         |  -3.2 |  3.2  |    -   |   -   |
+| MUSDB18 + Slakh           |         48        |  3.3  |  9.0  |    -   |   -   |
+| MUSDB18 + Flakh           |         48        | -10.2 |  4.1  |    -   |   -   |
+| MUSDB18 + MUSDB18-incoh.  |         48        |  0.7  |  5.1  |    -   |   -   |
+| Slakh redux               |         5         |  3.3  |  9.4  |  -3.0  |  -3.1 |
+| Slakh                     |         43        |  3.9  |  9.9  |  -1.8  |  -2.2 |
+| Oracle Methods:           |                   |       |       |        |       |
+| IBM                       |         -         |  5.3  |  10.0 |   5.2  |  4.1  |
+| IRM                       |         -         |  5.2  |  9.7  |   5.4  |  4.3  |
+| Wiener-like               |         -         |  6.3  |  10.7 |   6.4  |  5.3  |
+| Truncated phase sensitive |         -         |  7.3  |  11.7 |   7.3  |  6.4  |
 
 ## Citations <a name="citations"></a>
 
