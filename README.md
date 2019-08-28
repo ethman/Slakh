@@ -1,4 +1,4 @@
-The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using the [Native Instruments' Komplete Complete 12 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-12-ultimate/) sample pack with their Kontakt sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
+The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
 
 
 ## Table of Contents
@@ -7,9 +7,9 @@ The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separatio
 2. [Comparison to Other Datasets](#comparison)
 3. [License and Attribution](#license)
 4. [Construction of Slakh](#construction)
-    1. [Selection from the Lakh MIDI Dataset](#selection)
-    2. [Rendering and Mixing](#rendering)
-    3. [Flakh2100](#flakh)
+    &emsp;1. [Selection from the Lakh MIDI Dataset](#selection)
+    &emsp;2. [Rendering and Mixing](#rendering)
+    &emsp;3. [Flakh2100](#flakh)
 5. [Analysis](#analysis)
 6. [Examples](#examples)
 7. [Benchmarks](#benchmarks)
@@ -21,9 +21,7 @@ The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separatio
 
 Download Slakh2100 here: (link coming soon)
 
-Download Flakh2100 here: (link coming soon)
-
-Download Slakh2100 MIDI instrument/Kontakt patch mappings here: (link coming soon)
+Download Flakh2100 here: (link coming soon
 
 Download code to render Slakh here: (link coming soon)
 
