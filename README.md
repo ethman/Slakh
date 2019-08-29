@@ -132,6 +132,9 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 
 ![umap](https://github.com/ethman/Slakh/raw/master/img/all_umap_trunc_option2.png)
 
+<br><br>
+
+
 ## Audio Examples <a name="examples"></a>
 
 These are, in fact, MIDI files. There's no denying that from listening to these examples. The MIDI scores themselves are cheesy, but the expressiveness and "realness" of the different instruments is what powers the better separation. Here are two examples from each dataset:
@@ -141,7 +144,7 @@ These are, in fact, MIDI files. There's no denying that from listening to these 
 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
 
-
+<br><br>
 
 ## Benchmarks <a name="benchmarks"></a>
 
@@ -181,6 +184,8 @@ Separation performance in terms of SI-SDR [dB] averaged over the Slakh2100 test 
 | IRM                       |         -         |  5.2  |  9.7  |   5.4  |  4.3  |
 | Wiener-like               |         -         |  6.3  |  10.7 |   6.4  |  5.3  |
 | Truncated phase sensitive |         -         |  7.3  |  11.7 |   7.3  |  6.4  |
+
+<br><br>
 
 ## Citations <a name="citations"></a>
 
