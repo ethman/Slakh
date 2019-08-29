@@ -135,12 +135,12 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 ## Audio Examples <a name="examples"></a>
 
 
-| Slakh2100                                        | Flakh2100                                          |
-|--------------------------------------------------|----------------------------------------------------|
-| <audio src="slakh_00499.mp3" controls> </audio>  |  <audio src="flakh_00499.mp3" controls> </audio>   |
-| <audio src="slakh_00798.mp3" controls> </audio>  |  <audio src="flakh_00798.mp3" controls> </audio>   |
-| <audio src="slakh_01084.mp3" controls> </audio>  |  <audio src="flakh_01084.mp3" controls> </audio>   |
-| <audio src="slakh_01209.mp3" controls> </audio>  |  <audio src="flakh_01209.mp3" controls> </audio>   |
+| Slakh2100   | Flakh2100  |
+|-------------|------------|
+| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00499.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00499.mp3" controls> </audio>   |
+| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
+| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01084.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01084.mp3" controls> </audio>   |
+| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
 
 
 
