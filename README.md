@@ -1,4 +1,4 @@
-The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
+The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional-grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
 
 Slakh is brought to you by Mitsubishi Electric Research Lab and the Interactive Audio Lab at Northwestern University.
 
@@ -13,7 +13,7 @@ Slakh is brought to you by Mitsubishi Electric Research Lab and the Interactive 
     <br>&emsp;b. [Rendering and Mixing](#rendering)
     <br>&emsp;c. [Flakh2100](#flakh)<br>
 5. [Analysis](#analysis)
-6. [Examples](#examples)
+6. [Audio Examples](#examples)
 7. [Benchmarks](#benchmarks)
 8. [Citations](#citations)
  
@@ -21,19 +21,17 @@ Slakh is brought to you by Mitsubishi Electric Research Lab and the Interactive 
 
 ## Get Slakh2100 <a name="download"></a>
 
-**Slakh2100:** <a href="https://forms.gle/fSxUh1rdpeANPBx6A">Click here to access the download form.</a>
-
-Download Flakh2100 here: (link coming soon)
-
-Download code to render Slakh here: (link coming soon)
+**Slakh2100 and Flakh2100 datasets:** <a href="https://forms.gle/fSxUh1rdpeANPBx6A">Click here to access the download form.</a>
 
 Download support code for Slakh here: (link coming soon)
+
+Download code to render Slakh here: (link coming soon)
 
 
 
 ## License and Attribution <a name="license"></a>
   
-If you use Slakh2100 or generate data using the same method we ask that you cite it using the following bibtex entry:
+If you use Slakh2100/Flakh2100 or generate data using the same method we ask that you cite it using the following bibtex entry:
 
 ```
 @inproceedings{manilow2019cutting,
@@ -89,17 +87,17 @@ There is lots of room to grow to add more mixtures from MIDI files, as well as a
 
 ### Selection from the Lakh MIDI Dataset <a name="selection"></a>
 
-Slakh uses the MIDI instrument program numbers to determine how each MIDI instrument is mapped to each Kontakt patch for synthesis. Slakh2100 contains only MIDI files that have _at least_ piano, bass, guitar, and drums, where each of these four instruments plays at least 50 notes. This subset contains 20,371 songs and is denoted as "LMD (subset)" in the table in the [comparison above](#comparison). From this subset, 2100 songs were randomly selected to be synthesized.
+Slakh uses the MIDI instrument program numbers to determine how each MIDI instrument is mapped to each patch for synthesis. Slakh2100 contains only MIDI files that have _at least_ piano, bass, guitar, and drums, where each of these four instruments plays at least 50 notes. This subset contains 20,371 songs and is denoted as "LMD (subset)" in the table in the [comparison above](#comparison). From this subset, 2100 songs were randomly selected to be synthesized.
 
 ### Rendering and Mixing <a name="rendering"></a>
 
-After the 2100 MIDI files are selected, each MIDI file is split up into its individual "tracks" that contain one instrument per track. These tracks are randomly assigned to an associated Kontakt patch and rendered. Slakh uses 187 Kontakt patches categorized into 34 classes. The patch names and categorizations are available in the [Downloads](#downloads) section, above. Many patches are rendered with effects applied, like reverb, EQ, and compression. MIDI program numbers that are sparsely represented in LMD, like those under the “Sound Effects” header, are omitted. All tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit. They are distributed in the [flac](https://xiph.org/flac/) format.
+After the 2100 MIDI files are selected, each MIDI file is split up into its individual "tracks" that contain one instrument per track. These tracks are randomly assigned to an associated patch and rendered. Slakh uses 187 patches categorized into 34 classes. The patch names and categorizations are available in the [Downloads](#downloads) section, above. Many patches are rendered with effects applied, like reverb, EQ, and compression. MIDI program numbers that are sparsely represented in LMD, like those under the “Sound Effects” header, are omitted. All tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit. They are distributed in the [flac](https://xiph.org/flac/) format.
 
 After being rendered, each song is automatically mixed by normalizing each track to be equal in terms of integrated loudness as calculated by the algorithm defined in the ITU-R BS.1770-4 specification [7]. Each track is then summed together instantaneously to make a mixture, and a uniform gain is applied to the mixture and each track to ensure that there is no clipping.
 
 ### Flakh2100 <a name="flakh"></a>
 
-The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSynth](http://www.fluidsynth.org/) using the `TimGM6mb.sf2` sound font, the default in [pretty\_midi](https://craffel.github.io/pretty-midi/). The resulting dataset is referred to as **Flakh2100**. As before, the MIDI file is split into individual tracks and render these individually to make stems. But differences in dithering between Kontakt and FluidSynth made normalizing and mixing Flakh in the same way as Slakh impossible. Instead FluidSynth renders the whole, unsplit MIDI “mixture” as the resultant audio mixture. Similarly, these tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit and they are distributed in the [flac](https://xiph.org/flac/) format.
+The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSynth](http://www.fluidsynth.org/) using the `TimGM6mb.sf2` sound font, the default in [pretty\_midi](https://craffel.github.io/pretty-midi/). The resulting dataset is referred to as **Flakh2100**. As before, the MIDI file is split into individual tracks and render these individually to make stems. But low-amplitude noise added by FluidSynth (most likely for dithering) can be boosted to unnaturally loud levels when normalizing and mixing Flakh as we did for Slakh. This made normalizing and mixing Flakh in the same way as Slakh impossible. Instead FluidSynth renders the whole, unsplit MIDI “mixture” as the resultant audio mixture. Similarly, these tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit and they are distributed in the [flac](https://xiph.org/flac/) format.
 
 ## Anaylsis <a name="analysis"></a>
 
@@ -134,14 +132,23 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 
 ![umap](https://github.com/ethman/Slakh/raw/master/img/all_umap_trunc_option2.png)
 
-## Examples <a name="examples"></a>
+## Audio Examples <a name="examples"></a>
 
-(((Examples coming soon)))
+
+| Slakh2100                                        | Flakh2100                                          |
+|--------------------------------------------------|----------------------------------------------------|
+| <audio src="slakh_00499.mp3" controls> </audio>  |  <audio src="flakh_00499.mp3" controls> </audio>   |
+| <audio src="slakh_00798.mp3" controls> </audio>  |  <audio src="flakh_00798.mp3" controls> </audio>   |
+| <audio src="slakh_01084.mp3" controls> </audio>  |  <audio src="flakh_01084.mp3" controls> </audio>   |
+| <audio src="slakh_01209.mp3" controls> </audio>  |  <audio src="flakh_01209.mp3" controls> </audio>   |
+
 
 
 ## Benchmarks <a name="benchmarks"></a>
 
-Bass and drums separation performance in terms of SI- SDR [dB] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
+We ran a set of benchmark tests on the Slakh
+
+Bass and drums separation performance in terms of SI-SDR [dB] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
 |                           | Training data [h] | Bass | Drums |
 |---------------------------|:-----------------:|:----:|:-----:|
