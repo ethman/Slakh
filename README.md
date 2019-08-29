@@ -134,19 +134,18 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 
 ## Audio Examples <a name="examples"></a>
 
+These are, in fact, MIDI files. There's no denying that from listening to these examples. The MIDI scores themselves are cheesy, but the expressiveness and "realness" of the different instruments is what powers the better separation. Here are two examples from each dataset:
 
 | Slakh2100   | Flakh2100  |
 |-------------|------------|
-| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00499.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00499.mp3" controls> </audio>   |
 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
-| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01084.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01084.mp3" controls> </audio>   |
 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
 
 
 
 ## Benchmarks <a name="benchmarks"></a>
 
-We ran a set of benchmark tests on the Slakh
+We ran a set of benchmark tests on Slakh2100, Flakh2100, and MusDB18 using different types of mixing. For full details see our WASPAA paper.
 
 Bass and drums separation performance in terms of SI-SDR [dB] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
