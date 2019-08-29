@@ -1,5 +1,7 @@
 The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
 
+Slakh is brought to you by Mitsubishi Electric Research Lab and the Interactive Audio Lab at Northwestern University.
+
 
 ## Table of Contents
 
@@ -33,9 +35,18 @@ Download support code for Slakh here: (link coming soon)
   
 If you use Slakh2100 or generate data using the same method we ask that you cite it using the following bibtex entry:
 
-(((BibTex entry here)))
+```
+@inproceedings{manilow2019cutting,
+  title={Cutting Music Source Separation Some Slakh: A Dataset to Study the Impact of Training Data Quality and Quantity},
+  author={Manilow, Ethan and Wichern, Gordon and Seetharaman, Prem and Le Roux, Jonathan},
+  booktitle={2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
+  year={2019},
+  organization={IEEE}
+}
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Slakh2100 and Flakh2100 are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+```
+
+Slakh2100 and Flakh2100 are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 
 
