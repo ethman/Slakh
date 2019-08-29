@@ -19,9 +19,9 @@ The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separatio
 
 ## Get Slakh2100 <a name="download"></a>
 
-Download Slakh2100 here: (link coming soon)
+**Slakh2100:** <a href="https://forms.gle/fSxUh1rdpeANPBx6A">Click here to access the download form.</a>
 
-Download Flakh2100 here: (link coming soon
+Download Flakh2100 here: (link coming soon)
 
 Download code to render Slakh here: (link coming soon)
 
