@@ -137,12 +137,14 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 
 ## Audio Examples <a name="examples"></a>
 
-These are, in fact, MIDI files. There's no denying that from listening to these examples. The MIDI scores themselves are cheesy, but the expressiveness and "realness" of the different instruments is what powers the better separation. Here are two examples from each dataset:
+Here are two examples from each dataset:
 
 |    | Slakh2100   | Flakh2100  |
 |----|-------------|------------|
-| Track00798 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
-| Track01209 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
+| Track00798 &emsp;| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
+| Track01209 &emsp;| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
+
+There is no getting around the fact that these are, in fact, MIDI files. One thing that we have determined is that it's impossible to make the audio not sound cheesy if the MIDI files themselves are cheesy. But the richness and "realness" of the sample-based virtual instruments is what powers the better separation in deep learning contexts.
 
 <br><br>
 
