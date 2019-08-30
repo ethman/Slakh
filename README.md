@@ -139,10 +139,10 @@ Here is a [UMAP](https://github.com/lmcinnes/umap) projection of the spectra of 
 
 These are, in fact, MIDI files. There's no denying that from listening to these examples. The MIDI scores themselves are cheesy, but the expressiveness and "realness" of the different instruments is what powers the better separation. Here are two examples from each dataset:
 
-| Slakh2100   | Flakh2100  |
-|-------------|------------|
-| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
-| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
+|    | Slakh2100   | Flakh2100  |
+|----|-------------|------------|
+| Track00798 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
+| Track01209 | <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
 
 <br><br>
 
