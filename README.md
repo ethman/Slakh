@@ -144,9 +144,11 @@ Here are two examples from each dataset:
 | Track00798 &emsp;| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_00798.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_00798.mp3" controls> </audio>   |
 | Track01209 &emsp;| <audio src="https://github.com/ethman/Slakh/raw/master/audio/slakh_01209.mp3" controls> </audio>  |  <audio src="https://github.com/ethman/Slakh/raw/master/audio/flakh_01209.mp3" controls> </audio>   |
 
+<br>
+
 There is no getting around the fact that these are, in fact, MIDI files. One thing that we have determined is that it's impossible to make the audio not sound cheesy if the MIDI files themselves are cheesy. But the richness and "realness" of the sample-based virtual instruments is what powers the better separation in deep learning contexts.
 
-<br><br>
+<br>
 
 ## Benchmarks <a name="benchmarks"></a>
 
