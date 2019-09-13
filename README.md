@@ -186,7 +186,7 @@ Bass and drums separation performance in terms of SI-SDR (dB)[8] averaged over t
 | MUSDB18 + MUSDB18-incoh.  |         48        |  1.2 |  3.5  |
 | Slakh redux               |         5         | -2.0 |  -0.6 |
 | Slakh                     |         43        | -2.4 |  -0.7 |
-| Oracle Methods:           |                   |      |       |
+| **Oracle Methods:**       |                   |      |       |
 | IBM                       |         -         |  5.9 |  8.4  |
 | IRM                       |         -         |  5.7 |  8.1  |
 | Wiener-like               |         -         |  6.9 |  9.1  |
@@ -204,7 +204,7 @@ Separation performance in terms of SI-SDR (dB)[8] averaged over the Slakh2100 te
 | MUSDB18 + MUSDB18-incoh.  |         48        |  0.7  |  5.1  |    -   |   -   |
 | Slakh redux               |         5         |  3.3  |  9.4  |  -3.0  |  -3.1 |
 | Slakh                     |         43        |  3.9  |  9.9  |  -1.8  |  -2.2 |
-| Oracle Methods:           |                   |       |       |        |       |
+| **Oracle Methods:**       |                   |       |       |        |       |
 | IBM                       |         -         |  5.3  |  10.0 |   5.2  |  4.1  |
 | IRM                       |         -         |  5.2  |  9.7  |   5.4  |  4.3  |
 | Wiener-like               |         -         |  6.3  |  10.7 |   6.4  |  5.3  |
