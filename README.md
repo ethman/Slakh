@@ -1,3 +1,26 @@
+<style>
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+table {
+    border: 1px solid #fff;
+}
+</style>
+
+
 The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional-grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totaling 145 hours of mixtures.
 
 Slakh is brought to you by Mitsubishi Electric Research Lab (MERL) and the Interactive Audio Lab at Northwestern University.
