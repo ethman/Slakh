@@ -1,7 +1,7 @@
 <style>
 
 td, th {
-  border: 1px solid #ddd;
+  border: 1px solid #aaa;
   padding: 6px;
 }
 
@@ -14,7 +14,7 @@ th {
 }
 
 table {
-    border: 1px solid #fff;
+    border: 1px solid #aaa;
 }
 </style>
 
@@ -75,7 +75,7 @@ Here is a comparison between Slakh2100 and the most popular datasets used for au
 
 
 | Dataset       | # Songs  | Size (h) | # Tracks | # Instrument Categories |
-|---------------|----------:|----------:|----------:|-------------------------:|
+|:--------------|---------:|---------:|---------:|------------------------:|
 | iKala [2]     | 306      | 2        | 2        | 2                       |
 | MIR-1k [3]    | 110      | 2.25     | 2        | 2                       |
 | DSD100* [4]   | 100      | 7        | 4        | 4                       |
@@ -92,7 +92,7 @@ Here is how Slakh2100 compares to the full Lakh MIDI Dataset and to the subset o
 
 
 | Dataset               | # Songs  | Size (h) | # Tracks | # Instrument Categories |
-|-----------------------|----------:|----------:|----------:|-------------------------:|
+|:----------------------|---------:|---------:|---------:|------------------------:|
 | LMD (subset)          | 20,371   | 1,793    | 4+       | 129                     |
 | Lakh MIDI Dataset [1] | 176,581  | 10,521   | 1+       | 129                     |
 | **Slakh2100**         | **2100** | **145**  | **4-48** | **34**                  |
