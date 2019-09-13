@@ -1,6 +1,6 @@
-The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional-grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totals 145 hours of mixtures.
+The Synthesized Lakh (Slakh) Dataset is a new dataset for audio source separation that is synthesized from the [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) [1] using professional-grade sample-based virtual instruments. This first release of Slakh, called **Slakh2100**, contains 2100 automatically mixed tracks and accompanying MIDI files synthesized using a professional-grade sampling engine. The tracks in **Slakh2100** are split into training (1500 tracks), validation (375 tracks), and test (225 tracks) subsets, and totaling 145 hours of mixtures.
 
-Slakh is brought to you by Mitsubishi Electric Research Lab and the Interactive Audio Lab at Northwestern University.
+Slakh is brought to you by Mitsubishi Electric Research Lab (MERL) and the Interactive Audio Lab at Northwestern University.
 
 
 ## Table of Contents
@@ -35,9 +35,9 @@ If you use Slakh2100/Flakh2100 or generate data using the same method we ask tha
 
 ```
 @inproceedings{manilow2019cutting,
-  title={Cutting Music Source Separation Some Slakh: A Dataset to Study the Impact of Training Data Quality and Quantity},
+  title={Cutting Music Source Separation Some {Slakh}: A Dataset to Study the Impact of Training Data Quality and Quantity},
   author={Manilow, Ethan and Wichern, Gordon and Seetharaman, Prem and Le Roux, Jonathan},
-  booktitle={2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
+  booktitle={Proc. IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
   year={2019},
   organization={IEEE}
 }
@@ -67,7 +67,7 @@ Here is a comparison between Slakh2100 and the most popular datasets used for au
 ![comparison with other datasets](https://github.com/ethman/Slakh/raw/master/img/slakh_comp1.png)
 
 
-Here is how Slakh2100 compares to the full Lakh MIDI Dataset and to the subset of Lakh that has sources with at least the four instrument categories as described in [Selection from the Lakh MIDI Dataset](#selection) (this is denoted as "LMD (subset)" in the table below).
+Here is how Slakh2100 compares to the full Lakh MIDI Dataset and to the subset of Lakh that has sources with at least one source from each Piano, Bass, Guitar, and Drums, as described in [Selection from the Lakh MIDI Dataset](#selection) (this is denoted as "LMD (subset)" in the table below).
 
 
 | Dataset               | # Songs  | Size (h) | # Tracks | # Instrument Categories |
@@ -97,7 +97,7 @@ After being rendered, each song is automatically mixed by normalizing each track
 
 ### Flakh2100 <a name="flakh"></a>
 
-The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSynth](http://www.fluidsynth.org/) using the `TimGM6mb.sf2` sound font, the default in [pretty\_midi](https://craffel.github.io/pretty-midi/). The resulting dataset is referred to as **Flakh2100**. As before, the MIDI file is split into individual tracks and render these individually to make stems. But low-amplitude noise added by FluidSynth (most likely for dithering) can be boosted to unnaturally loud levels when normalizing and mixing Flakh as we did for Slakh. This made normalizing and mixing Flakh in the same way as Slakh impossible. Instead FluidSynth renders the whole, unsplit MIDI “mixture” as the resultant audio mixture. Similarly, these tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit and they are distributed in the [flac](https://xiph.org/flac/) format.
+The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSynth](http://www.fluidsynth.org/) using the `TimGM6mb.sf2` sound font, the default in [pretty\_midi](https://craffel.github.io/pretty-midi/). The resulting dataset is referred to as **Flakh2100**. As before, the MIDI file is split into individual tracks that were rendered individually to make stems. But low-amplitude noise added by FluidSynth (most likely for dithering) can be boosted to unnaturally loud levels when normalizing and mixing Flakh as we did for Slakh. This made normalizing and mixing Flakh in the same way as Slakh impossible. Instead FluidSynth renders the whole, unsplit MIDI “mixture” as the resultant audio mixture. Similarly, these tracks are rendered into separate monaural audio files at CD quality: 44.1kHz, 16-bit and they are distributed in the [flac](https://xiph.org/flac/) format.
 
 ## Anaylsis <a name="analysis"></a>
 
@@ -154,7 +154,7 @@ There is no getting around the fact that these are, in fact, MIDI files. One thi
 
 We ran a set of benchmark tests on Slakh2100, Flakh2100, and MusDB18 using different types of mixing. For full details see our WASPAA paper.
 
-Bass and drums separation performance in terms of SI-SDR [dB] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
+Bass and drums separation performance in terms of SI-SDR (dB)[8] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
 |                           | Training data [h] | Bass | Drums |
 |---------------------------|:-----------------:|:----:|:-----:|
@@ -172,7 +172,7 @@ Bass and drums separation performance in terms of SI-SDR [dB] averaged over the 
 | Truncated phase sensitive |         -         |  7.9 |  10.1 |
 
 
-Separation performance in terms of SI-SDR [dB] averaged over the Slakh2100 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
+Separation performance in terms of SI-SDR (dB)[8] averaged over the Slakh2100 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
 |                           | Training data [h] |  Bass | Drums | Guitar | Piano |
 |---------------------------|:-----------------:|:-----:|:-----:|:------:|:-----:|
@@ -206,3 +206,5 @@ Separation performance in terms of SI-SDR [dB] averaged over the Slakh2100 test 
 [6] Z. Rafii, A. Liutkus, F.-R. Stöter, S. I. Mimilakis, and R. Bittner, “The MUSDB18 corpus for music separation,” Dec. 2017. [Online]. Available: https://doi.org/10.5281/ zenodo.1117372
 
 [7] Recommendation ITU-R BS.1770-4, “Algorithms to measure audio programme loudness and true-peak audio level,” 2017.
+
+[8] J. Le Roux, S. Wisdom, H. Erdogan, and J. R. Hershey, “SDR–half-baked or well done?” in Proc. IEEE Interna- tional Conference on Acoustics, Speech and Signal Processing (ICASSP), May 2019, pp. 626–630.
