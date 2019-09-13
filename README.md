@@ -192,7 +192,7 @@ Bass and drums separation performance in terms of SI-SDR (dB)[8] averaged over t
 | Wiener-like               |         -         |  6.9 |  9.1  |
 | Truncated phase sensitive |         -         |  7.9 |  10.1 |
 
-
+<br>
 Separation performance in terms of SI-SDR (dB)[8] averaged over the Slakh2100 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
 |                           | Training data [h] |  Bass | Drums | Guitar | Piano |
