@@ -126,7 +126,7 @@ The same 2100 MIDI files selected for Slakh2100 are also rendered with [FluidSyn
 
 Here is the number of _mixtures_ that contain an instrument in a given MIDI instrument program "family":
 
-![number of mixtures with class](https://github.com/ethman/Slakh/raw/master/img/n_with_cls.png)
+![number of mixtures with class](https://github.com/ethman/Slakh/raw/master/img/n_mix_with_inst_class.png)
 
 And here is the number of _tracks_ by MIDI instrument program "family":
 
