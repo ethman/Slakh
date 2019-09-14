@@ -173,7 +173,7 @@ There is no getting around the fact that these are, in fact, MIDI files. One thi
 
 ## Benchmarks <a name="benchmarks"></a>
 
-We ran a set of benchmark tests on Slakh2100, Flakh2100, and MusDB18 using different types of mixing. For full details see our WASPAA paper.
+We ran a set of benchmark tests on Slakh2100, Flakh2100, and MUSDB18 using different types of mixing. For full details see our WASPAA paper.
 
 Bass and drums separation performance in terms of SI-SDR (dB)[8] averaged over the MUSDB18 test set for the unprocessed mixture, models trained on various datasets, and oracle methods.
 
