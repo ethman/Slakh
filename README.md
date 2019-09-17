@@ -44,7 +44,7 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 
 **Slakh2100 and Flakh2100 datasets:** [Click here to access the download form.](https://forms.gle/fSxUh1rdpeANPBx6A)
 
-Download support code for Slakh here: (link coming soon)
+Support code for Slakh: [Available here.](https://github.com/ethman/slakh-utils)
 
 Download code to render Slakh here: (link coming soon)
 
