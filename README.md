@@ -36,7 +36,8 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 5. [Analysis](#analysis)
 6. [Audio Examples](#examples)
 7. [Benchmarks](#benchmarks)
-8. [Citations](#citations)
+8. [Issues or Questions](#issues)
+9. [Citations](#citations)
  
  
 
@@ -45,8 +46,9 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 **Slakh2100 and Flakh2100 datasets:** [Click here to access the download form.](https://forms.gle/fSxUh1rdpeANPBx6A)
 
 Support code for Slakh: [Available here.](https://github.com/ethman/slakh-utils)
+<br>&emsp;<br>&emsp;Also, [click here for general info about the dataset](https://github.com/ethman/slakh-utils#at-a-glance), and [click here for info about the metadata Slakh2100](https://github.com/ethman/slakh-utils#metadata). 
 
-Download code to render Slakh here: (link coming soon)
+Download code to render Slakh here: ((link coming soon))
 
 
 
@@ -211,6 +213,12 @@ Separation performance in terms of SI-SDR (dB)[8] averaged over the Slakh2100 te
 | Truncated phase sensitive |         -         |  7.3  |  11.7 |   7.3  |  6.4  |
 
 <br><br>
+
+## Issues or Questions <a name="issues"></a>
+
+If there are any issues or questions with downloading Slakh2100 or with the dataset itself, please open an issue [here](https://github.com/ethman/Slakh/issues).
+
+If there are any issues with the support code, please open an issue in [this repo](https://github.com/ethman/slakh-utils/issues).
 
 ## Citations <a name="citations"></a>
 
