@@ -48,7 +48,7 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 Support code for Slakh: [Available here.](https://github.com/ethman/slakh-utils)
 <br>&emsp;&emsp;See [the dataset at a glance](https://github.com/ethman/slakh-utils#at-a-glance), and [info about `metadata.yaml`](https://github.com/ethman/slakh-utils#metadata). 
 
-Code to render more Slakh data here: ((link coming soon))
+Code to render Slakh data: [Available in this repo.](https://github.com/ethman/slakh_generation_scripts) 
 
 
 
