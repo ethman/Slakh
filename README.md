@@ -43,7 +43,7 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 
 ## Get Slakh2100 <a name="download"></a>
 
-**IMPORTANT: The orignal Slakh2100 has duplicate MIDI files, some some of which are present in more than one of the train/test/validation splits! See [this page](https://github.com/ethman/slakh-utils/tree/master/splits) for the fix!**
+**IMPORTANT: The original Slakh2100 has duplicate MIDI files, some some of which are present in more than one of the train/test/validation splits! See [this page](https://github.com/ethman/slakh-utils/tree/master/splits) for the fix!**
 
 **Slakh2100 dataset:** [Click here to access the download form.](https://forms.gle/fSxUh1rdpeANPBx6A)
 
