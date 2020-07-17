@@ -27,6 +27,7 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 ## Table of Contents
 
 1. [Get Slakh2100](#download)
+    <br>&emsp;a. [Slakh2100 at a Glance](#glance)
 2. [Comparison to Other Datasets](#comparison)
 3. [License and Attribution](#license)
 4. [Construction of Slakh](#construction)
@@ -45,11 +46,16 @@ Slakh is brought to you by [Mitsubishi Electric Research Lab (MERL)](http://www.
 
 **Slakh2100 dataset:** [Click here to access the download form.](https://forms.gle/fSxUh1rdpeANPBx6A)
 
-Support code for Slakh: [Available here.](https://github.com/ethman/slakh-utils)
-<br>&emsp;&emsp;See [the dataset at a glance](https://github.com/ethman/slakh-utils#at-a-glance), and [info about `metadata.yaml`](https://github.com/ethman/slakh-utils#metadata). 
+Support code for Slakh: [Available here.](https://github.com/ethman/slakh-utils) 
 
 Code to render Slakh data: [Available in this repo.](https://github.com/ethman/slakh_generation_scripts) 
 
+
+### Slakh2100 at a glance <a name="glance"></a>
+
+See [the dataset at a glance](https://github.com/ethman/slakh-utils#at-a-glance), and [info about `metadata.yaml`](https://github.com/ethman/slakh-utils#metadata).
+
+**Important: Some MIDI files are replicated (due to a bug), see [this section](https://github.com/ethman/slakh-utils/blob/master/README.md#make-splits) for the fix depending on your use case.**
 
 
 ## License and Attribution <a name="license"></a>
